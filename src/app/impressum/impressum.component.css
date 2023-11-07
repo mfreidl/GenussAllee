@@ -1,0 +1,31 @@
+#privacy{
+  background-color: black !important;
+}
+
+#privacy .headerprivacy {
+  height: 90px;
+  background: rgb(0, 0, 0);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+#privacy .contentprivacy {
+  margin: 100px;
+}
+
+.modal-body p{
+  color: black!important;
+}
+
+a {
+  color: black;
+}
+
+h4 {
+  color: white;
+}
+
+p {
+  color: white
+}

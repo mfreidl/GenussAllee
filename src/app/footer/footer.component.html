@@ -1,0 +1,146 @@
+<footer class="bg-dark">
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <div class="col-auto justify-content-center">
+          <div align="center">
+            <ul>
+              <li (click)="open(privacy)"><a>Datenschutz</a></li>
+              <li (click)="open(impressum)"><a>Impressum</a></li>
+              <li (click)="open(responsibility)"><a>Verantwortung</a></li>
+            </ul>
+          </div>
+          <div align="center">
+            <p class="mb-0">© Copyright Genuss Allee e.U.</p>
+            <p class="mb-0">All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<ng-template #privacy let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="privacy-title">Datenschutz</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <i class="fa fa-times"></i>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p>Der Schutz Ihrer pers&ouml;nlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher
+      ausschlie&szlig;lich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003). In diesen
+      Datenschutzinformationen informieren wir Sie &uuml;ber die wichtigsten Aspekte der Datenverarbeitung im Rahmen
+      unserer Website.</p>
+
+    <p>Kontakt mit uns<br>
+      Wenn Sie per Formular auf der Website oder per E-Mail Kontakt mit uns aufnehmen, werden Ihre angegebenen Daten
+      zwecks Bearbeitung der Anfrage und f&uuml;r den Fall von Anschlussfragen sechs Monate bei uns gespeichert. Diese
+      Daten geben wir nicht ohne Ihre Einwilligung weiter.</p>
+
+    <p>Cookies<br>
+      Unsere Website verwendet so genannte Cookies. Dabei handelt es sich um kleine Textdateien, die mit Hilfe des
+      Browsers auf Ihrem Endger&auml;t abgelegt werden. Sie richten keinen Schaden an.</p>
+
+    <p>Wir nutzen Cookies dazu, unser Angebot nutzerfreundlich zu gestalten. Einige Cookies bleiben auf Ihrem Endger&auml;t
+      gespeichert, bis Sie diese l&ouml;schen. Sie erm&ouml;glichen es uns, Ihren Browser beim n&auml;chsten Besuch
+      wiederzuerkennen.</p>
+
+    <p>Wenn Sie dies nicht w&uuml;nschen, so k&ouml;nnen Sie Ihren Browser so einrichten, dass er Sie &uuml;ber das
+      Setzen von Cookies informiert und Sie dies nur im Einzelfall erlauben.</p>
+
+    <p>Bei der Deaktivierung von Cookies kann die Funktionalit&auml;t unserer Website eingeschr&auml;nkt sein.</p>
+
+    <p>Web-Analyse</p>
+
+    <p>Diese Website nutzt den Dienst &#8222;Google Analytics&ldquo;, welcher von der Google Inc. (1600 Amphitheatre
+      Parkway Mountain View, CA 94043, USA) angeboten wird, zur Analyse der Websitebenutzung durch Nutzer. Der Dienst
+      verwendet &#8222;Cookies&ldquo; &ndash; Textdateien, welche auf Ihrem Endger&auml;t gespeichert werden. Die durch
+      die Cookies gesammelten Informationen werden im Regelfall an einen Google-Server in den USA gesandt und dort
+      gespeichert.<br>
+      Auf dieser Website greift die IP-Anonymisierung. Die IP-Adresse der Nutzer wird innerhalb der Mitgliedsstaaten der
+      EU und des Europ&auml;ischen Wirtschaftsraum gek&uuml;rzt. Durch diese K&uuml;rzung entf&auml;llt der
+      Personenbezug Ihrer IP-Adresse. Im Rahmen der Vereinbarung zur Auftragsdatenvereinbarung, welche die
+      Websitebetreiber mit der Google Inc. geschlossen haben, erstellt diese mithilfe der gesammelten Informationen eine
+      Auswertung der Websitenutzung und der Websiteaktivit&auml;t und erbringt mit der Internetnutzung verbundene
+      Dienstleistungen. Aufbewahrungsdauer von Nutzer- und Ereignisdaten begr&auml;gt 14 Monate.</p>
+
+    <p>Sie haben die M&ouml;glichkeit, die Speicherung des Cookies auf Ihrem Ger&auml;t zu verhindern, indem Sie in
+      Ihrem Browser entsprechende Einstellungen vornehmen. Es ist nicht gew&auml;hrleistet, dass Sie auf alle Funktionen
+      dieser Website ohne Einschr&auml;nkungen zugreifen k&ouml;nnen, wenn Ihr Browser keine Cookies zul&auml;sst.</p>
+
+    <p>Weiterhin k&ouml;nnen Sie durch ein Browser-Plugin verhindern, dass die durch Cookies gesammelten Informationen
+      (inklusive Ihrer IP-Adresse) an die Google Inc. gesendet und von der Google Inc. genutzt werden. Folgender Link f&uuml;hrt
+      Sie zu dem entsprechenden Plugin: https://tools.google.com/dlpage/gaoptout?hl=de<br>
+      Hier finden Sie weitere Informationen zur Datennutzung durch die Google Inc.:
+      https://support.google.com/analytics/answer/6004245?hl=de</p>
+
+    <p>Newsletter<br>
+      Sie haben die M&ouml;glichkeit, &uuml;ber unsere Website unseren Newsletter zu abonnieren. Hierf&uuml;r ben&ouml;tigen
+      wir Ihre E-Mail-Adresse und ihre Erkl&auml;rung, dass Sie mit dem Bezug des Newsletters einverstanden sind.</p>
+
+    <p>Das Abo des Newsletters k&ouml;nnen Sie jederzeit stornieren. Senden Sie Ihre Stornierung bitte an folgende
+      E-Mail-Adresse: office@grazider.at. Wir l&ouml;schen anschlie&szlig;end umgehend Ihre Daten im Zusammenhang mit
+      dem Newsletter-Versand. Durch diesen Widerruf wird die Rechtm&auml;&szlig;igkeit der aufgrund der Zustimmung bis
+      zum Widerruf erfolgten Verarbeitung nicht ber&uuml;hrt.</p>
+
+    <p>Ihre Rechte<br>
+      Ihnen stehen bez&uuml;glich Ihrer bei uns gespeicherten Daten grunds&auml;tzlich die Rechte auf Auskunft,
+      Berichtigung, L&ouml;schung, Einschr&auml;nkung, Daten&uuml;bertragbarkeit, Widerruf und Widerspruch zu. Wenn Sie
+      glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verst&ouml;&szlig;t oder Ihre
+      datenschutzrechtlichen Anspr&uuml;che sonst in einer Weise verletzt worden sind, k&ouml;nnen Sie sich bei der uns
+      office@grazider.at oder der Datenschutzbeh&ouml;rde beschweren.</p>
+
+    <p>Sie erreichen uns unter folgenden Kontaktdaten:<br>
+      Pohl Media GmbH, FN 517956a, Gesch&auml;ftsf&uuml;hrer/Inhaber Wolfgang Pohl, Kaiser-Franz-Josef-Kai 58, A-8010
+      Graz Anfrageformular<br>
+    </p>
+  </div>
+</ng-template>
+
+
+<ng-template #impressum let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="impressum-title">Impressum</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <i class="fa fa-times"></i>
+    </button>
+  </div>
+  <div class="modal-body modaltext">
+    <p>Genuss Alle<br>
+      POHL MEDIA GMBH<br>
+      FN 517956a<br>
+      FB-Gericht: Landesgericht f&uuml;r ZRS Graz<br>
+      UID: ATU74792156</p>
+
+    <p>Gesch&auml;ftsf&uuml;hrer/Inhaber<br>
+      Wolfgang Pohl</p>
+
+    <p>T 0676-9325495</p>
+
+    <p>Kaiser-Franz-Josef-Kai 58<br>
+      A-8010 Graz</p>
+
+    <p>Verbraucher haben die M&ouml;glichkeit, Beschwerden an die Online-Streitbeilegungsplattform der EU zu richten:
+      http://ec.europa.eu/odr. Sie k&ouml;nnen allf&auml;llige Beschwerde auch mittels dem Anfrageformular schicken.<br>
+    </p>
+  </div>
+</ng-template>
+
+<ng-template #responsibility let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="responsibilty-title">Verantwortung</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <i class="fa fa-times"></i>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p>Die Genuss Allee tr&auml;gt Verantwortung<br>
+        Nicht nur &ouml;kologisch sondern auch mit Alkohol.<br>
+        Es ist wichtig dar&uuml;ber autzukl&auml;ren. Einige der Produkte in unseren Geschenkspackungen sind erst ab 16
+        Jahren zu genie&szlig;en erlaubt. Wie alle Genussmittel sollte man auch Alkohol in Ma&szlig;en genie&szlig;en.
+        Kein Alkohol vor oder w&auml;hrend man hinter dem Steuer sitzt. In der Schwangerschaft sollte Alkohol ein Tabu
+        sein. Alkoholkonsum bei der Einnahme von Medikamenten sollte vermieden werden.<br>
+      </p>
+    </div>
+</ng-template>

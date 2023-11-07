@@ -1,0 +1,129 @@
+#contact{
+  background-color: black!important;
+  position: relative;
+}
+
+.home-custom-by {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size:30px;
+  color: white;
+  text-align: center;
+}
+.home-custom-by2 {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+#contact::after{
+  content: "";
+  width: 100%;
+  height: 70%;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#contact .form-control{
+  background-color: black;
+  color: white;
+  border-radius: 0;
+}
+
+
+#contact .form-control:focus{
+  box-shadow: none;
+  border-color: white;
+}
+
+.form-control::placeholder{
+  font-size: 10px;
+  color: white;
+}
+
+.btn-brand{
+  width: 100%;
+  height: 50px;
+  background-color: var(--c-buttoncolor);
+  color: #050505;
+  border-color: transparent;
+  font-weight: bold;
+}
+
+.btn-brand:hover{
+  background-color: var(--c-buttoncolorhover);
+  color: black;
+}
+
+.input-group-text {
+  background-color: #000000; /* Adjust the background color as needed */
+  color: white;
+  border: none; /* Remove border if desired */
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.check-text {
+  background-color: #000000; /* Adjust the background color as needed */
+  color: white;
+  border: none; /* Remove border if desired */
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.fixed-size-input {
+
+  margin-top: 15px;
+}
+
+.form-check-input{
+  background-color: black;
+  border-color: white;
+  border-radius: 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .home-custom-by {
+    font-size: 20px;
+  }
+
+  .home-custom-by2 {
+    font-size:15px;
+  }
+
+  .input-group-text {
+    font-size: 20px;
+  }
+
+  .check-text {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+
+  .home-custom-by {
+    font-size: 15px;
+  }
+
+  .home-custom-by2 {
+    font-size:12px;
+  }
+
+  .input-group-text {
+    font-size: 15px;
+  }
+
+  .check-text {
+    font-size: 12px;
+  }
+}
+
+

@@ -1,0 +1,66 @@
+footer {
+
+}
+
+.footer-top {
+  background: black;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.footer-bottom {
+  background: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+p{
+  font-size: 15px;
+}
+
+.modal-body p{
+  color: black!important;
+}
+
+footer li,
+footer p,
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: rgb(190, 190, 190);
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .line {
+  width: 40px;
+  height: 4px;
+  background-color: var(--c-brand);
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 100px;
+}
+
+.social-icons a:hover {
+  background-color: var(--c-brand);
+  color: white;
+}
+
+.close{
+  background-color: transparent;
+  border-color: transparent;
+}

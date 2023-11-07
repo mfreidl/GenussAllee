@@ -1,0 +1,85 @@
+.navbar-custom {
+  background-color: transparent!important;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+.navbar-custom .navbar-text {
+  font-size: 20px;
+  color: white;
+  text-decoration: underline;
+}
+
+.navbar-nav,
+.navbar-nav:hover .nav-link:hover{
+  font-weight: 500;
+  color: #858383;
+}
+
+.navbar{
+  transition: 0.5s;
+}
+
+.navbar-toggler{
+  color: white;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: none;
+}
+
+.navbar-toggler-icon::before {
+  font-family: FontAwesome;
+  content: "\f00d";
+  color: white;
+  font-size: 28px;
+}
+
+.navbar-toggler.collapsed .navbar-toggler-icon::before {
+  content: '\f0c9';
+}
+
+.navbar-collapse ul {
+  background-color: black;
+  height: 100vh;
+  transition: height .35s ease;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-collapse {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9); /* Adjust background color as needed */
+  z-index: 999;
+}
+
+.navbar-toggler {
+  z-index: 1001;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<nav class="navbar navbar-custom bg-body-tertiary fixed-top" *ngIf="active">
+  <div class="container">
+    <button (click)="toggleNavbar()" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item px-4 mt-5">
+          <a class="nav-link text-center" (click)="inView(menuItems[0].linkId)" (click) ="closeNavbar()" routerLink="{{menuItems[0].linkId}}" routerLinkActive="active" data-bs-target=".navbar-collapse.show">Hall of Fame</a>
+        </li>
+        <li class="nav-item px-4 mt-4">
+          <a class="nav-link text-center" (click)="inView(menuItems[1].linkId)" (click) ="closeNavbar()" routerLink="/{{menuItems[1].linkId}}" routerLinkActive="active" data-bs-target=".navbar-collapse.show">Sweet Temptation</a>
+        </li>
+        <li class="nav-item px-4 mt-4">
+          <a class="nav-link text-center" (click)="inView(menuItems[2].linkId)" (click) ="closeNavbar()" routerLink="/{{menuItems[2].linkId}}" routerLinkActive="active" data-bs-target=".navbar-collapse.show">Spirit in the Sky</a>
+        </li>
+        <li class="nav-item px-4 mt-4">
+          <a class="nav-link text-center" (click)="inView(menuItems[3].linkId)" (click) ="closeNavbar()" routerLink="/{{menuItems[3].linkId}}" routerLinkActive="active" data-bs-target=".navbar-collapse.show">Bestellen</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
